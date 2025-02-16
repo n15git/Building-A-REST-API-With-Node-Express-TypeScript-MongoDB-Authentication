@@ -20,7 +20,6 @@ const server=http.createServer(app);
 server.listen(8080,()=>{
     console.log('Server running on http://localhost:8080/');
 });
-const MONGO_URL ='mongodb+srv://nikita_15:uZiHSOwDOk2f9Ach@cluster0.gx1xp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 
 mongoose.Promise=Promise;
 mongoose.connect(MONGO_URL);
